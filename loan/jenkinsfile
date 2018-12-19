@@ -1,6 +1,6 @@
 node{
    stage ( 'scm ckeckout' ){
-       git 'https://github.com/satish3131/pipeline.git/loan'
+       git 'https://github.com/satish3131/pipeline.git/'
     }
    stage ('compile-package' ){
       // get maven home path
